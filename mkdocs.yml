@@ -1,0 +1,15 @@
+site_name: noc.as56381.net
+site_url: https://noc.as56381.net/
+site_author: "level66.network UG (haftungsbeschränkt)"
+site_description: "This website describes the technical side of AS56381 operated by level66.network UG (haftungsbeschränkt)."
+copyright: "Copyright by level66.network UG (haftungsbeschränkt)"
+
+theme:
+  name: lux
+  navigation_depth: 4
+
+nav:
+  - Home: index.md
+#  - Network: network.md
+  - BGP Communities: bgp-communities.md
+  - Imprint: https://level66.network/impressum/
