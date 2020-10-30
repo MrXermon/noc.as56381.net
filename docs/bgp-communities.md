@@ -46,6 +46,8 @@ We accept and redistribute the following blackholing-community to our upstreams.
 
 ### Transit
 
+Control the announcement of your subnets to our transits.
+
 #### Telekom
 
 |community|description|
@@ -68,4 +70,26 @@ We accept and redistribute the following blackholing-community to our upstreams.
 
 
 ### Internet Exchange Point
-To be added in the future.
+
+Control the announcement of your subnets to our IXPs.
+
+
+#### KleyReX
+
+|community|description|
+|-|-|
+|56381:40100|Do not announce subnet to the KleyReX Route-Server.|
+
+
+#### DE-CIX FRA
+
+|community|description|
+|-|-|
+|56381:40200|Do not announce subnet to the DE-CIX FRA Route-Server.|
+
+
+#### NL-ix
+
+|community|description|
+|-|-|
+|56381:40300|Do not announce subnet to the NL-ix Route-Server.|
