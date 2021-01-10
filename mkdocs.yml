@@ -10,6 +10,6 @@ theme:
 
 nav:
   - Home: index.md
-#  - Network: network.md
+  - BGP Looking Glass: https://lg.noc.level66.network/
   - BGP Communities: bgp-communities.md
   - Imprint: https://level66.network/impressum/
