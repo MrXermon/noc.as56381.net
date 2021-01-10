@@ -7,9 +7,11 @@ copyright: "Copyright by level66.network UG (haftungsbeschränkt)"
 theme:
   name: lux
   navigation_depth: 4
+  prev_next_buttons_location: none
 
 nav:
   - Home: index.md
-  - BGP Looking Glass: https://lg.noc.level66.network/
+  - Speedtest: speedtest.md
+  - Looking Glass: https://lg.noc.level66.network/
   - BGP Communities: bgp-communities.md
   - Imprint: https://level66.network/impressum/
