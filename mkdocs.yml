@@ -4,14 +4,12 @@ site_author: "level66.network UG (haftungsbeschränkt)"
 site_description: "This website describes the technical side of AS56381 operated by level66.network UG (haftungsbeschränkt)."
 copyright: "Copyright by level66.network UG (haftungsbeschränkt)"
 
-theme:
-  name: lux
-  navigation_depth: 4
-  prev_next_buttons_location: none
+theme: readthedocs
 
 nav:
   - Home: index.md
   - Speedtest: speedtest.md
   - Looking Glass: https://lg.noc.level66.network/
+  - Smokeping: https://ping.noc.level66.network/
   - BGP Communities: bgp-communities.md
   - Imprint: https://level66.network/impressum/
