@@ -1,13 +1,10 @@
 # BGP communities
-
 We use BGP communities to control the traffic flow within our network. In addition to that we offer some BGP Communites to be used by our customers.
 
 ## Informational communities
-
 The following communities include information about the routes from our network.
 
 ### IRR validation
-
 |community|description|
 |-|-|
 |56381:10101|Route got validated against IRR data and is valid.|
@@ -15,7 +12,6 @@ The following communities include information about the routes from our network.
 |56381:10103|Route got not valid against IRR data and is therefore not classified.|
 
 ### RPKI validation
-
 |community|description|
 |-|-|
 |56381:10201|Route got validated against RPKI data and is valid.|
@@ -23,11 +19,9 @@ The following communities include information about the routes from our network.
 |56381:10203|Route got not valid against RPKI data and is therefore not classified.|
 
 ## Action communities
-
 The following action communities can be used to control the behavior of our network. These communites can only be used by our customers.
 
 ### Well-known communities
-
 The following well-known communities are accepted by our network.
 
 |community|description|
@@ -37,7 +31,6 @@ The following well-known communities are accepted by our network.
 |65535:666|RFC7999, will be rewriten to 56381:666 internally|
 
 ### Blackholing
-
 We accept and redistribute the following blackholing-community to our upstreams. Blackholing is only allowed for IPv4 /32 and IPv6 /128 routes.
 
 |community|description|
@@ -45,51 +38,32 @@ We accept and redistribute the following blackholing-community to our upstreams.
 |56381:666|blackhole traffic to prefix|
 
 ### Transit
-
 Control the announcement of your subnets to our transits.
 
-#### Telekom
-
+#### meerfarbig
 |community|description|
 |-|-|
 |56381:30100|Do not announce subnet to AS3320.|
 
-
-#### GTT
-
-|community|description|
-|-|-|
-|56381:30200|Do not announce subnet to AS3257.|
-
-
 #### RETN
-
 |community|description|
 |-|-|
-|56381:30300|Do not announce subnet to AS9002.|
-
+|56381:30200|Do not announce subnet to AS9002.|
 
 ### Internet Exchange Point
-
 Control the announcement of your subnets to our IXPs.
 
-
 #### KleyReX
-
 |community|description|
 |-|-|
 |56381:40100|Do not announce subnet to the KleyReX Route-Server.|
 
-
-#### DE-CIX FRA
-
+#### STACIX
 |community|description|
 |-|-|
-|56381:40200|Do not announce subnet to the DE-CIX FRA Route-Server.|
-
+|56381:40200|Do not announce subnet to the STACIX Route-Server.|
 
 #### NL-ix
-
 |community|description|
 |-|-|
 |56381:40300|Do not announce subnet to the NL-ix Route-Server.|
