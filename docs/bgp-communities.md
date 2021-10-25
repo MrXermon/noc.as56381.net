@@ -33,6 +33,7 @@ The following well-known communities are accepted by our network.
 
 |community|description|
 |-|-|
+|65535:0|RFC8326, will be used for graceful session shutdown.|
 |65535:666|RFC7999, will be used for blackholing.|
 
 ### Blackholing
