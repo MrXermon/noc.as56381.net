@@ -9,7 +9,7 @@ We are using LibreSpeed as a web-based speedtest solution. Feel free to click [h
 We are offering a iPerf 3 server within our network.
 
 ```
-Server: de-fra2-lg1.level66.network
+Server: speedtest.noc.level66.network
 Port: 5201 (TCP and UDP)
 ```
 
