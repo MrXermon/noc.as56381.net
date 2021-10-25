@@ -1,4 +1,4 @@
-# BGP communities
+# BGP Communities
 We use BGP communities to control the traffic flow within our network. In addition to that we offer some BGP Communites to be used by our customers.
 
 ## Informational communities
