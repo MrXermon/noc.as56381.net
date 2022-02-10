@@ -10,6 +10,7 @@ nav:
   - Home: index.md
   - Speedtest: speedtest.md
   - Looking Glass: https://lg.noc.level66.network/
+  - BGP Looking-Glass: https://bgp.noc.level66.network/
   - Smokeping: https://ping.noc.level66.network/
   - BGP Communities: bgp-communities.md
   - Routing Policies: routing-policies.md
