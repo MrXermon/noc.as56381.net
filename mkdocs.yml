@@ -7,11 +7,19 @@ copyright: "Copyright by level66.network UG (haftungsbeschränkt)"
 theme: readthedocs
 
 nav:
-  - Home: index.md
-  - Speedtest: speedtest.md
-  - Looking Glass: https://lg.noc.level66.network/
-  - BGP Looking-Glass: https://bgp.noc.level66.network/
-  - Smokeping: https://ping.noc.level66.network/
-  - BGP Communities: bgp-communities.md
-  - Routing Policies: routing-policies.md
-  - Imprint: https://level66.network/impressum/
+  - General:
+    - Home: index.md
+    - Imprint: https://level66.network/impressum/
+  - Services:
+    - DNS: ./services/dns.md
+    - NTP: ./services/ntp.md
+    - NAT64: ./services/nat64.md
+    - Mirror: ./services/mirror.md
+  - Tools:
+    - Speedtest: ./tools/speedtest.md
+    - Looking Glass: https://lg.noc.level66.network/
+    - Smokeping: https://ping.noc.level66.network/
+    - Status Page: https://status.level66.network/
+  - External Statistics:
+    - bgp.tools: https://bgp.tools/as/56381
+    - bgp.he.net: https://bgp.he.net/AS56381
