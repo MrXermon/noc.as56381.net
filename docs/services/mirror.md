@@ -9,6 +9,7 @@ Please find more information about our mirror on the dedicated website.
 The following packets are currently mirrored.
 
 - Ubuntu Releases
+- F-Droid
 - OPNsense
 - Dell Lifecycle Controller Updates ([updateyodell.net](https://updateyodell.net/))
 
