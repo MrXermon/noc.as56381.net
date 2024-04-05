@@ -19,7 +19,6 @@ nav:
   - Tools:
     - Speedtest: ./tools/speedtest.md
     - Looking Glass: https://lg.noc.level66.network/
-    - Smokeping: https://ping.noc.level66.network/
     - Status Page: https://status.level66.network/
   - External Statistics:
     - bgp.tools: https://bgp.tools/as/56381
