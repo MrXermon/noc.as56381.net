@@ -1,9 +1,8 @@
 # Mirror
 We are activley mirroring a bunch of open-source projects onto our own mirror.
 By using the mirror within our datacenter, we can reduce the latency and bandwidth usage during updates.
-Please find more information about our mirror on the dedicated website.
 
-[mirror.level66.network](https://mirror.level66.network/)
+[https://mirror.level66.services/](https://mirror.level66.services/)
 
 ## Packets
 The following packets are currently mirrored.
@@ -18,9 +17,7 @@ The following packets are currently mirrored.
 This sections explains how to use our mirror with your systems.
 
 ### OPNsense
-This screenshot shows the configuration of OPNsense to statically select our mirror.
-
-![Configure the mirror in the "Firmware - Settings" config-options.](./files/mirror-opnsense.png "Screenshot of the mirror-configuration in OPNsense.")
+Our mirror can be selected under "System - Firmware - Settings" in the Mirror dropdown.
 
 ### Dell Lifecycle Controller
 In the configuration of the Lifecycle controller, go to "System Updates" or "Firmware Updates".
@@ -28,7 +25,7 @@ Select HTTP or HTTPs as the location type or file location.
 Enter the following details into the form.
 
 ```
-HTTP(S) Address: mirror.level66.network
+HTTP(S) Address: mirror.level66.services
 User Name: <Empty>
 Password: <Empty>
 Catalog Location: /dell/g<Hardware Revision>/

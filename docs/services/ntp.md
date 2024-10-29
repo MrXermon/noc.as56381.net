@@ -5,7 +5,7 @@ We are offering this common source with in our network in form of a stratum 2 ti
 You can use the following details to configure your client to use our NTP server.
 
 ```
-Server: ntp.level66.network
+Server: ntp.level66.services
 Port: 123
 ```
 

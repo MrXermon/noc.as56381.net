@@ -6,7 +6,7 @@ We provide the followind speedtest servers to test the bandwidth of you to our n
 We are offering a iPerf 3 server within our network which is more accurate as the web-based LibreSpeed speedtest mentioned above.
 
 ```
-Server: speedtest.noc.level66.network
+Server: speedtest.level66.services
 Port: 5201 (TCP and UDP, Ports 5201-5205 available)
 ```
 

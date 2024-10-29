@@ -1,7 +1,7 @@
-site_name: noc.level66.network
-site_url: https://noc.level66.network/
+site_name: level66.services
+site_url: https://level66.services/
 site_author: "level66.network UG (haftungsbeschränkt)"
-site_description: "This website describes the technical side of AS56381 operated by level66.network UG (haftungsbeschränkt)."
+site_description: "This website describes the services provided by level66.network."
 copyright: "Copyright by level66.network UG (haftungsbeschränkt)"
 
 theme: readthedocs
@@ -9,17 +9,21 @@ theme: readthedocs
 nav:
   - General:
     - Home: index.md
+    - Status Page: https://status.level66.services/
+    - Ticket System: https://support.level66.network/
+    - Privacy: https://level66.network/datenschutz/
     - Imprint: https://level66.network/impressum/
+
   - Services:
-    - DNS: ./services/dns.md
-    - NTP: ./services/ntp.md
-    - NAT64: ./services/nat64.md
+    - DNS Server: ./services/dns.md
+    - NTP Server: ./services/ntp.md
+    - NAT64 Gateway: ./services/nat64.md
     - RPKI Validator / RTR Server: ./services/rpki.md
-    - Mirror: ./services/mirror.md
-  - Tools:
-    - Speedtest: ./tools/speedtest.md
-    - Looking Glass: https://lg.noc.level66.network/
-    - Status Page: https://status.level66.network/
-  - External Statistics:
+    - Software Mirror: ./services/mirror.md
+    - Speedtest Server: ./services/speedtest.md
+
+  - Network Backbone:
+    - AS56381: ./as56381/index.md
+    - Looking Glass: https://lg.level66.services/
     - bgp.tools: https://bgp.tools/as/56381
     - bgp.he.net: https://bgp.he.net/AS56381

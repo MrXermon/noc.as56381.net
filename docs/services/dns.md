@@ -26,11 +26,9 @@ By using DoT, the traffic between the client and the DNS server is encrypted by 
 If you want to setup DoT on your client, please use the following FQDN and port.
 
 ```
-Server: dot.level66.network
+Server: dns.level66.services
 Port: 853
 ```
-
-If you want to use DoT on an Apple device, you can download the configuration profile [here](./files/dot.level66.network.mobileconfig).
 
 ## DoH / DNS over HTTP(S)
 As of now, DNS over HTTP(S) is not supported.
